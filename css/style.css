@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+button:active, button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:active, a:focus {
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1290px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
