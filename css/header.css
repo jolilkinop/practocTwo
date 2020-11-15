@@ -79,6 +79,28 @@
     line-height: 13px;
     color: #000000;
 }
+.header_btn:hover {
+    background: #66977A;
+    border-radius: 17px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+.header_btn:active {
+    background: #FFFFFF;
+    border: 1px solid #FD9C95;
+    box-sizing: border-box;
+    border-radius: 17px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000000;
+}
 .header_basket {
     width: 40px;
     height: 39px;
@@ -140,6 +162,24 @@
         font-size: 9px;
         line-height: 10px;
         color: #000000;
+    }
+    .header_btn:hover {
+        width: 157px;
+        height: 23px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .header_btn:active {
+        width: 157px;
+        height: 23px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 10px;
     }
     .header_basket {
         position: relative;
