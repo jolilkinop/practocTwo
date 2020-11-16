@@ -113,6 +113,9 @@
         color: #000000;
         margin-top: 5px;
     }
+    .catalog-slider {
+        margin-top: 50px;
+    }
     .catalog-slider_left {
         margin-right: 14px;
         width: 22px;
