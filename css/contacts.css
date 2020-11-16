@@ -1,0 +1,126 @@
+.contacts {
+    position: relative;
+}
+.contacts_background {
+    z-index: -1;
+    margin-top: 0;
+    position: absolute;
+    max-width: 993px;
+    max-height: 341px;
+    width: 100%;
+    top: -30px;
+}
+.contacts_info {
+    max-width: 405px;
+    margin: 0 auto;
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+    margin-top: 21px;
+}
+.contacts_messenger {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_messenger-item {
+    max-width: 42px;
+    max-height: 46px;
+}
+.contacts_email {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.contacts_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 31px;
+    color: #000000;
+}
+.contacts_partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+}
+.contacts_partners-postoffice {
+    margin-right: 92px;
+    max-width: 138px;
+    width: 100%;
+}
+.contacts_partners-cdek {
+    margin-right: 64px;
+    max-width: 154px;
+    width: 100%;
+}
+.contacts_partners-pony {
+    max-width: 304px;
+    width: 100%;
+}
+
+@media(max-width:780px) {
+    .contacts_lady-img {
+        width: 58px;
+        height: 70px;
+        margin: 0 auto;
+    }
+    .contacts_messenger-item {
+        max-width: 12px;
+        max-height: 12px;
+    }
+    .contacts_email {
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 11px;
+        text-align: center;
+        color: #000000;
+    }
+    .contacts_text {
+        margin-top: 20px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 13px;
+        color: #000000;
+    }
+    .contacts_partners {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-row-gap: 28px;
+    }
+    .contacts_partners-postoffice {
+        width: 92px;
+        margin-right: 0;
+        order: 3;
+    }
+    .contacts_partners-cdek {
+        width: 92px;
+        margin-right: 0;
+        order: 2;
+    }
+    .contacts_partners-pony {
+        width: 109px;
+        order: 1;
+    }
+    
+}
