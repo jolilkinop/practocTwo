@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/basket.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="js/basket.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -101,5 +102,48 @@
         <!-- /.footer -->
     </div>
     <!-- /.container-->
+    <div class="basket-popup">
+        <div class="basket-popup_content">
+            <div class="basket-popup_info">
+                <h2 class="basket-popup_title">Оформление заказа</h2>
+                <img src="image/basket/close.svg" alt="закрыть" class="basket-popup_delete">
+                <form action="#" class="basket-popup_form">
+                    <div class="basket-popup_block">
+                        <label for="labelTel" class="basket-popup_text">Телефон:</label>
+                        <input id="labelTel" type="tel" class="basket-popup_input">
+                    </div>
+                    <div class="basket-popup_block">
+                        <label for="labelEmail" class="basket-popup_text">E-mail:</label>
+                        <input id="labelEmail" type="email" class="basket-popup_input">
+                    </div>
+                    <div class="basket-popup_block">
+                        <label for="labelText" class="basket-popup_text">Город:</label>
+                        <input id="labelText" type="text" class="basket-popup_input">
+                    </div>
+                    <div class="basket-popup_block">
+                        <label for="labelAdress" class="basket-popup_text">Адрес:</label>
+                        <div class="div-input">
+                            <input id="labelAdress" type="text" class="basket-popup_bold" placeholder="Улица">
+                            <input id="labelAdress" type="text" class="basket-popup_mini" placeholder="Дом">
+                            <input id="labelAdress" type="text" class="basket-popup_mini" placeholder="Кв">
+                        </div>
+                    </div>
+                    <div class="basket-popup_checkbox">
+                        <input id="labelCheckbox" type="checkbox" class="basket-popup_checkbox-itm">
+                        <label class="basket-popup_label-checkbox" for="labelCheckbox">согласие на обработку персональных данных</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.basket-popup -->
+    <div class="basket-pop">
+        <div class="basket-pop_content">
+            <img class="basket-pop_img" src="image/basket/Group 11.png" alt="">
+            <img class="basket-pop_close" src="image/basket/close.svg" alt="закрыть">
+        </div>
+    </div>
+    <!-- /.basket-pop -->
+    
 </body>
 </html>

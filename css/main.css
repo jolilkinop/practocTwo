@@ -16,6 +16,7 @@
     max-width: 1159px;
     max-height: 522px;
     width: 100%;
+    display: none;
 }
 .slider_brn-right {
     max-width: 47px;
@@ -23,6 +24,10 @@
 }
 .slider_switch {
     display: none;
+    margin-top: 10px;
+}
+.active {
+    display: block;
 }
 
 @media(max-width: 780px) {
@@ -46,6 +51,12 @@
         height: 5px;
         background: #C4C4C4;
         margin-right: 6px;
+        border-radius: 100px;
+    }
+    .active-switch {
+        width: 5px;
+        height: 5px;
+        background: #000000;
         border-radius: 100px;
     }
 }
@@ -330,6 +341,26 @@
     max-height: 442px;
     margin-bottom: 50px;
     margin-top: -50px;
+}
+
+.img-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.img-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.img-fhree {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.img-foru {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
 }
 
 @media(max-width: 1200px) {
