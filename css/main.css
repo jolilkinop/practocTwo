@@ -367,7 +367,7 @@
     .review_background {
         grid-template-columns: repeat(3, 1fr);
     }
-    .review_item-four {
+    .img-foru {
         display: none;
     }
 }
@@ -375,7 +375,7 @@
     .review_background {
         grid-template-columns: repeat(2, 1fr);
     }
-    .review_item-three {
+    .img-fhree {
         display: none;
     }
 }
@@ -401,7 +401,7 @@
     .review_btn-right, .review_btn-left {
         display: none;
     }
-    .review_item-two {
+    .img-two {
         display: none;
     }
 }
